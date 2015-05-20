@@ -1,2 +1,2 @@
 # kicad-scripts
-Various scripts which perform direct manipulation of kicad_pcb files.
+Various KiCad scripts for the direct manipulation of PCB files. Serves as an intermediate for special tasks which should be eventually merged into the KiCad source.

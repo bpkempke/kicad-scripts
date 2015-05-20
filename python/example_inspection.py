@@ -13,7 +13,7 @@ FromUnits=FromMils
  
 print "LISTING VIAS:"
 for item in pcb.GetTracks():
-    if type(item) is SEGVIA:
+    if type(item) is VIA:
          
         pos = item.GetPosition()
         drill = item.GetDrillValue()
