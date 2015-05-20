@@ -45,10 +45,10 @@ print "LIST MODULES:"
 for module in pcb.GetModules():
     print "* Module: %s at %s"%(module.GetReference(),ToUnits(module.GetPosition()))
      
-print ""
-print "LIST ZONES:"
-for zone in pcb.GetSegZones():
-    print zone
+#print ""
+#print "LIST ZONES:"
+#for zone in pcb.GetSegZones():
+#    print zone
      
      
 print ""
